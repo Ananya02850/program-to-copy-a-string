@@ -3,10 +3,10 @@
 
 int main()
 {
-    char str[40];
+    char str[40], str2[30];
     puts("enter any string: ");
     gets(str);
-    printf("%d", strlen(str));
-
+    strcpy(str2, str);
+    puts(str2);
     return 0;
 }
